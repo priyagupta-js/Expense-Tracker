@@ -1,15 +1,11 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
+import {AppBar} from "@mui/material/";
 function Home (){
     return (
         <div className="container">
-           <AppBar position="static">
-           <div className="logo">Logo</div>
-              <ul className="menu">
-                  <li>About us</li>
-                  <li>Solutions</li>
-                  <li>Pricing</li>
-              </ul>
+           <AppBar position="static" style={{background:"transparent" , boxShadow:"none"}}>
+           <div className="logo" style={{color:'#0f9ffa',fontSize:"2rem"}}>Expense</div>
+           {/* <Button>Login/Sign up</Button> */}
            </AppBar> 
         </div>
     );
