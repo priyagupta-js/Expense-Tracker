@@ -5,18 +5,34 @@
 }
 
 body {
+    font-family: 'Raleway', sans-serif !important;
     background-color: rgb(255, 255, 255);
 }
-div .logo {
+/* div .logo {
     padding:20px;
-}
-
-/* .me-auto{
-
-    margin-left: 40px;
-    
 } */
 
+.navbar-brand {
+    color: #0f9ffa !important;
+font-size: 1.9rem !important;
+
+}
+
+.nav-link {
+    font-size: 1.3rem !important;
+    color:#000 !important;
+    margin-left: 30px;
+}
+.me-auto{
+    margin-left: 90px;
+    
+}
+.navbar-brand:hover{
+    color: #068cdf !important;
+}
+.nav-link:hover{
+    color: #068cdf !important;
+}
 .main-Intro {
     margin-top: 30px;
     padding : 40px 0 30px 40px;
