@@ -17,7 +17,7 @@ function NavBar() {
           <Nav.Link as={NavLink} to="/pricing">Pricing</Nav.Link>
           <Nav.Link as={NavLink} to="/contact">Contact us</Nav.Link>
         </Nav>
-        <Button variant="primary">Login/Sign up</Button>
+        <Button className="menu-btn" variant="primary">Login/Sign up</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
