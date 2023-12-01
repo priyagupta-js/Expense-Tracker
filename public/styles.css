@@ -14,11 +14,19 @@ body {
   font-size: 1.9rem !important;
 }
 
+/* if the screen size hits 768px or smaller */
+@media only screen and (max-width: 768px) {
+  .navbar-brand  {
+    font-size:1.5rem !important;
+  }
+}
+
 .nav-link {
   font-size: 1.3rem !important;
   color: #000 !important;
   margin-left: 30px;
 }
+
 .me-auto {
   margin-left: 90px;
 }

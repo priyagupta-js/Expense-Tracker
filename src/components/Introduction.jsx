@@ -7,7 +7,7 @@ function Introduction (){
     return(
         <Container className="main-Intro">
         <Row>
-        <Col className="Intro-text" sm={6}>
+        <Col className="Intro-text">
             <h4 className="heading">Manage your Expense<br/><span style={{color:"#0f9ffa"}}>efficiently</span></h4>
             <h6 className="title">Plan , track , organise your expenses</h6>
             <Button variant="primary">Learn more</Button>
