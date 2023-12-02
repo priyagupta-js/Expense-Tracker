@@ -5,9 +5,9 @@ function UseCase() {
   return (
     <Container className="useCase-Container">
       <h3>See how Expense can help you manage your everyday expenses.</h3>
-      <Row>
+      <Row xs={1} lg={3} md={3}>
         <Col>
-          <Card>
+          <Card >
             <Card.Text>icon</Card.Text>
             <Card.Body>
             <Card.Title>Card Title</Card.Title>

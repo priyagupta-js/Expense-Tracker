@@ -19,10 +19,15 @@ body {
   .navbar-brand  {
     font-size:1.5rem !important;
   }
-  .menu-btn {
-margin-left: 100px !important;
-  }
+ 
 }
+
+@media only screen and (max-width: 992px) {
+  .menu-btn {
+    margin-left: 100px !important;
+      }
+    }
+
 
 .nav-link {
   font-size: 1.3rem !important;
@@ -70,4 +75,13 @@ margin-left: 100px !important;
 }
 .catchy-word {
   color: "blue";
+}
+.card{
+  border: 1px solid #0f9ffa !important;
+  margin-bottom: 12px !important ;
+  
+}
+
+.card-title{
+  color:#0f9ffa !important;
 }
