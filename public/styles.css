@@ -14,7 +14,7 @@ body {
   font-size: 1.9rem !important;
 }
 
-/* if the screen size hits 768px or smaller */
+/* if the screen size hits 768px (Medium) or smaller */
 @media only screen and (max-width: 768px) {
   .navbar-brand  {
     font-size:1.5rem !important;
@@ -22,6 +22,8 @@ body {
  
 }
 
+
+/* if the screen size hits 992px (large) or smaller */
 @media only screen and (max-width: 992px) {
   .menu-btn {
     margin-left: 100px !important;
@@ -84,4 +86,17 @@ body {
 
 .card-title{
   color:#0f9ffa !important;
+}
+
+.Customer-Container{
+  text-align: center;
+  margin: 30px 0px 30px 100px !important ;
+}
+
+/* if the screen size hits 768px (Medium) or smaller */
+@media only screen and (max-width: 992px) {
+
+  .Customer-Container{
+  margin: 30px 0px !important ;
+  }
 }

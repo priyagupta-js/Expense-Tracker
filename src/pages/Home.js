@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import Blog from "../components/Blog";
 import CustomerReview from "../components/CustomerReview";
 import Footer from "../components/Footer";
-import Guide from "../components/Guide";
+// import Guide from "../components/Guide";
 import Introduction from "../components/Introduction";
 import UseCase from "../components/UseCase";
 
@@ -13,7 +13,7 @@ function Home (){
         <Container>
             <Introduction />
             <UseCase />
-            <Guide />
+            {/* <Guide /> */}
             <CustomerReview />
             <Blog />
             <Footer />
