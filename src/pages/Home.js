@@ -16,7 +16,7 @@ function Home (){
             {/* <Guide /> */}
             <CustomerReview />
             <Blog />
-            <Footer />
+            {/* <Footer /> */}
         </Container>
     );
 }
