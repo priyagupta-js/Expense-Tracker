@@ -3,8 +3,8 @@ import {Container , Row , Col} from "react-bootstrap";
 function Footer (){
  
     return (
-      <Container style={{backgroundColor:"#fffaf0"}}>
-        <Row  style={{marginTop:"20px", marginBottom:"20px"}}>
+      <Container style={{backgroundColor:"#fffaf0" , margin:"0px"}}>
+        <Row  style={{marginTop:"20px", marginBottom:"20px" ,padding:"20px"}}>
           <Col>
             <ul>
             <li>Features</li>

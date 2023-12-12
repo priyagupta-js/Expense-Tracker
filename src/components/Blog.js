@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import NewsImage from "../Asset/blog_image.jpeg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Blog() {
   return (
@@ -15,7 +16,7 @@ function Blog() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Card.Link>Go somewhere</Card.Link>
+              <Card.Link>Read More</Card.Link>
             </Card.Body>
           </Card>
         </Col>
@@ -42,7 +43,7 @@ function Blog() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Card.Link>Go somewhere</Card.Link>
+              <Card.Link>Read More<FontAwesomeIcon icon="fa-solid fa-arrow-right" /></Card.Link>
             </Card.Body>
           </Card>
         </Col>
